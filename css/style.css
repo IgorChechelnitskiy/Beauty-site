@@ -1,0 +1,355 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    background-color: #EFEFEF;
+    line-height: 1.4;
+    padding-top: 50px;
+}
+
+img {
+    display: block;
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover,
+a:focus {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+a:active {
+    opacity: 0.5;
+}
+
+h2 {
+    font-size: 24px;
+    line-height: 1.17;
+}
+
+.btn {
+    padding: 9px;
+    color: #fff;
+    text-align: center;
+    font-size: 14px;
+    background-color: #F13C6E;
+    box-sizing: border-box;
+    border: 2px solid transparent;
+    cursor: pointer;
+    border-radius: 30px;
+    min-width: 130px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.btn--outlined {
+    min-width: 170px;
+    border-color: #F13C6E;
+    border-radius: 40px;
+    background: transparent;
+    color: #000;
+}
+
+.btn--white {
+    border-color: #fff;
+    color: #fff;
+    max-width: 170px;
+}
+
+.container {
+    padding-right: calc(50vw - 555px);
+    padding-left: calc(50vw - 555px);
+}
+
+/*         NAV           */
+
+.nav {
+    position: fixed;
+    background: #E5E5E5;
+    width: 100%;
+    top: 0;
+    left: 0;
+    padding-top: 17px;
+    padding-bottom: 16px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+.navbar {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0;
+    gap: 30px;
+}
+
+.nav-link {
+    color: #333333;
+    padding: 17px 0 16px 0;
+}
+
+/*         Header           */
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: #fff;
+    border-bottom: 1px solid #EFEFEF;
+}
+
+.contact-phone {
+    margin: 0 40px 0 auto;
+    font-size: 16px;
+    color: #000;
+}
+
+/*        Categories          */
+
+.categories {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background: #fff;
+    margin: 0;
+    padding: 30px 0;
+    gap: 40px;
+
+}
+
+.categories-link {
+    color: #000;
+}
+
+/*         Offer           */
+
+.offer {
+    padding-top: 136px;
+    padding-bottom: 193px;
+    color: #fff;
+    background-image: url("../img/chear.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+.offer-title {
+    font-size: 48px;
+    margin: 0 0 50px;
+    max-width: 308px;
+}
+
+.offer-text {
+    margin: 0 0 50px;
+    max-width: 308px;
+}
+
+/*         Special offer cards           */
+
+.special-offer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 38px 10px;
+    padding-top: 80px;
+    padding-bottom: 100px;
+}
+
+.product-title {
+    width: 100%;
+    font-size: 24px;
+    line-height: 1.2;
+    margin: 0;
+}
+
+.product-card {
+    width: 255px;
+    background: #fff;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.product-image {
+    width: 125px;
+    height: 166px;
+}
+
+.product-text {
+    max-width: 195px;
+    color: #333;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 0;
+}
+
+.product-price {
+    margin: 0;
+    font-weight: 500;
+    font-size: 21px;
+}
+
+/*         Pink cards           */
+
+.pink-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 30px;
+    padding-bottom: 100px;
+}
+
+.pink-card-items {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background: #F13C6E;
+    width: 540px;
+    height: 212px;
+    padding: 35px 45px 35px 40px;
+    color: #fff;
+    margin: 0;
+    position: relative;
+}
+
+.pink-card-title {
+    font-size: 17px;
+    font-weight: 700;
+    max-width: 250px;
+    margin: 0;
+}
+
+.pink-card-text {
+    max-width: 129px;
+    font-size: 14px;
+    margin: 0;
+}
+
+.email {
+    width: 225px;
+    height: 35px;
+    border-radius: 30px;
+    border: none;
+    margin: 0;
+    padding: 3px 25px;
+    font-size: 14px;
+}
+
+.pink-card-img {
+    width: 140px;
+    position: absolute;
+    left: 65%;
+    bottom: 33%;
+}
+
+.car-img {
+    width: 189px;
+    left: 55%;
+    bottom: 33%;
+}
+
+/*         Brand logos           */
+
+.impuls-logo {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /*justify-content: space-between;*/
+    background: #fff;
+}
+
+.impuls-logo img {
+    width: 149px;
+    height: 49px;
+}
+
+.impuls-logo div {
+    border: 1px solid #EFEFEF;
+    box-sizing: border-box;
+    padding: 35px 61px 35px 60px;
+}
+.impuls-logo div:nth-last-col {
+    border-right: none;
+}
+
+
+/*         Site map           */
+
+.site-map {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 180px;
+    min-width: 25%;
+    background: #fff;
+    border-bottom: 1px solid #EFEFEF;
+}
+
+.site-map-title {
+    font-weight: 500;
+    font-size: 16px;
+    margin: 60px 0 25px 0;
+    width: 255px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #EFEFEF;}
+
+.site-map-items ul {
+    list-style: none;
+    padding: 0 0 97px 0;
+}
+
+.site-map-items a {
+    color: #828282;
+    font-size: 12px;
+    line-height: 2.3;
+}
+
+/*         Social and contacts           */
+
+.contacts {
+    display: flex;
+    align-items: center;
+    padding-bottom: 35px;
+    padding-top: 35px;
+    background: #fff;
+}
+
+.social {
+    display: flex;
+    flex-direction: row;
+}
+
+.social-btn {
+    width: 45px;
+    height: 45px;
+    border: 1px solid #F13C6E;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+/*         Footer           */
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: #828282;
+    font-size: 12px;
+    margin: 25px 0;
+}
+
