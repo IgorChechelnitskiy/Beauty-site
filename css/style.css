@@ -79,6 +79,7 @@ h2 {
     padding-bottom: 16px;
     box-sizing: border-box;
     font-size: 14px;
+    z-index: 1;
 }
 
 .navbar {
@@ -125,14 +126,57 @@ h2 {
     margin: 0;
     padding: 30px 0;
     gap: 40px;
-
 }
 
 .categories-link {
     color: #000;
 }
 
-/*         Offer           */
+/*         Sub Categories    */
+
+.categories-items {
+    position: relative;
+}
+
+.sub-categories-1 {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    list-style: none;
+    display: none;
+    background: #fff;
+}
+
+.sub-categories-2 {
+    position: absolute;
+    top: 100%;
+    left: 40%;
+    list-style: none;
+    display: none;
+    background: #fff;
+}
+
+.sub-categories-2 li,
+.sub-categories-1 li {
+    padding: 10px 20px 10px 0;
+}
+
+.sub-categories-2 a,
+.sub-categories-1 a {
+    color: #000;
+}
+
+.categories-items:hover .sub-categories-1 {
+    display: block;
+    background: #F13C6E;
+}
+
+.sub-categories-1 li:hover .sub-categories-2 {
+    display: block;
+    background: #F13C6E;
+}
+
+/*               Offer            */
 
 .offer {
     padding-top: 136px;
