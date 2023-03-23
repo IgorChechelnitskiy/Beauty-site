@@ -198,7 +198,7 @@ h2 {
 }
 
 .product-price {
-    margin: 0;
+    margin: 0 0 20px 0;
     font-weight: 500;
     font-size: 21px;
 }
@@ -218,12 +218,12 @@ h2 {
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: space-between;
+    box-sizing: border-box;
     background: #F13C6E;
-    width: 540px;
+    width: 50%;
     height: 212px;
     padding: 35px 45px 35px 40px;
     color: #fff;
-    margin: 0;
     position: relative;
 }
 
@@ -269,24 +269,15 @@ h2 {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    /*justify-content: space-between;*/
     background: #fff;
 }
 
 .impuls-logo img {
-    width: 149px;
-    height: 49px;
-}
-
-.impuls-logo div {
-    border: 1px solid #EFEFEF;
     box-sizing: border-box;
-    padding: 35px 61px 35px 60px;
+    width: 25%;
+    padding: 34px;
+    border: 1px solid #EFEFEF;
 }
-.impuls-logo div:nth-last-col {
-    border-right: none;
-}
-
 
 /*         Site map           */
 
@@ -294,8 +285,6 @@ h2 {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    gap: 180px;
-    min-width: 25%;
     background: #fff;
     border-bottom: 1px solid #EFEFEF;
 }
@@ -306,7 +295,8 @@ h2 {
     margin: 60px 0 25px 0;
     width: 255px;
     padding-bottom: 30px;
-    border-bottom: 1px solid #EFEFEF;}
+    border-bottom: 1px solid #EFEFEF;
+}
 
 .site-map-items ul {
     list-style: none;
